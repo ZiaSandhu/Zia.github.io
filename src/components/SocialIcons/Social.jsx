@@ -14,7 +14,7 @@ function Social({isSmallScreen}) {
       {/* //youtube */}
       <SocialIcon
         className={styles.icon}
-        url="https://www.linkedin.com/in/zia-ur-rehman-sandhu"
+        url="https://instagram.com/zia_jutt_15?igshid=MzNlNGNkZWQ4Mg=="
         network="instagram"
         bgColor='transparent'
         fgColor='#E1306C'
@@ -22,7 +22,7 @@ function Social({isSmallScreen}) {
       {/* //intstagram */}
       <SocialIcon
         className={styles.icon}
-        url="https://www.linkedin.com/in/zia-ur-rehman-sandhu"
+        url="https://github.com/ZiaSandhu"
         network="github"
         bgColor='transparent'
         fgColor='#171515'
@@ -30,7 +30,7 @@ function Social({isSmallScreen}) {
       {/* //github */}
       <SocialIcon
         className={styles.icon}
-        url="https://www.linkedin.com/in/zia-ur-rehman-sandhu"
+        url="https://www.youtube.com/channel/UCvJJrxLXdJjKuDNv9Ha-FLw"
         network="youtube"
         bgColor='transparent'
         fgColor='#ff0000'

@@ -14,7 +14,7 @@ function Project(props) {
     const details = (
       <>
         <h3 className={styles.title}>{props.title}</h3>
-        <a className={styles.button}  href={props.gitUrl}>See on Github</a>
+        <a className={styles.button}  href={props.gitUrl} target='_blank'>See on Github</a>
       </>
     );
     if(leftImage){
@@ -39,7 +39,8 @@ function Project(props) {
     const smallScreen = (
       <div className={styles.mobileWrapper}>
         {imgDiv}
-        <h4>{props.title}</h4>
+        <h4>{props.title} </h4>
+        <a className={styles.button}  href={props.gitUrl} target='_blank'>See on Github</a>
       </div>
     )
   return (
