@@ -4,14 +4,14 @@
             "id":0,
             "title":"Coin Bounce",
             "imgUrl":"./asset/CoinBounce.png",
-            "githubUrl":""
+            "githubUrl":"https://github.com/ZiaSandhu/coin-bounce.git"
 
         },
         {
             "id":1,
             "title":"Zia Ur Rehman",
             "imgUrl":"./asset/Portfolio.png",
-            "githubUrl":""
+            "githubUrl":"https://github.com/ZiaSandhu/zia.git"
 
         }
         

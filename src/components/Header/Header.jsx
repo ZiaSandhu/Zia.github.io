@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Social from '../SocialIcons/Social'
 import styles from './Header.module.css'
 function Header() {
-  const [size,setSize] = useState(window.screen.width)
+  const size = window.screen.width
   return (
     <>
       {/* <img src="./asset/header.png" className={styles.background} alt="" /> */}
