@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zia/static/css/main.2a3755ff.css",
-    "main.js": "/zia/static/js/main.30e3255d.js",
+    "main.js": "/zia/static/js/main.0667b461.js",
     "static/js/787.5cf638ed.chunk.js": "/zia/static/js/787.5cf638ed.chunk.js",
     "index.html": "/zia/index.html",
     "main.2a3755ff.css.map": "/zia/static/css/main.2a3755ff.css.map",
-    "main.30e3255d.js.map": "/zia/static/js/main.30e3255d.js.map",
+    "main.0667b461.js.map": "/zia/static/js/main.0667b461.js.map",
     "787.5cf638ed.chunk.js.map": "/zia/static/js/787.5cf638ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a3755ff.css",
-    "static/js/main.30e3255d.js"
+    "static/js/main.0667b461.js"
   ]
 }
