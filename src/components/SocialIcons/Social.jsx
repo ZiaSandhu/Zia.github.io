@@ -10,6 +10,8 @@ function Social({isSmallScreen}) {
         url="https://www.linkedin.com/in/zia-ur-rehman-sandhu"
         bgColor='transparent'
         fgColor='#0A66C2'
+        target='_blank'
+
       />
       {/* //youtube */}
       <SocialIcon
@@ -18,6 +20,7 @@ function Social({isSmallScreen}) {
         network="instagram"
         bgColor='transparent'
         fgColor='#E1306C'
+        target='_blank'
       />
       {/* //intstagram */}
       <SocialIcon
@@ -26,6 +29,7 @@ function Social({isSmallScreen}) {
         network="github"
         bgColor='transparent'
         fgColor='#171515'
+        target='_blank'
       />
       {/* //github */}
       <SocialIcon
@@ -33,6 +37,7 @@ function Social({isSmallScreen}) {
         url="https://www.youtube.com/channel/UCvJJrxLXdJjKuDNv9Ha-FLw"
         network="youtube"
         bgColor='transparent'
+        target='_blank'
         fgColor='#ff0000'
       />
     </div>
