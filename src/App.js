@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-
+import Home from './pages/Home/Home'
+import styles from './App.module.css'
 function App() {
   return (
-    <div className="App">
-      
+    <div className={styles.wrapper}>
+      <Home />
     </div>
   );
 }

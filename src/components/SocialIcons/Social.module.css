@@ -1,0 +1,15 @@
+:root{
+    --iconSize: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    opacity: 0.7;
+    margin: -3px;
+} 
+.icon:hover{
+    opacity: 1;
+}

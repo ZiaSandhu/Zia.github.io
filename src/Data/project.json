@@ -1,0 +1,24 @@
+{
+    "detail":[
+        {
+            "id":0,
+            "title":"Social Media Website",
+            "imgUrl":"./asset/testImage.png",
+            "githubUrl":""
+        },
+        {
+            "id":1,
+            "title":"Coin Bounce",
+            "imgUrl":"./asset/testImage.png",
+            "githubUrl":""
+
+        },
+        {
+            "id":2,
+            "title":"Portfolio",
+            "imgUrl":"./asset/testImage.png",
+            "githubUrl":""
+
+        }
+    ]
+}
