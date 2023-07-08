@@ -16,8 +16,8 @@ function Social({isSmallScreen}) {
       {/* //youtube */}
       <SocialIcon
         className={styles.icon}
-        url="https://instagram.com/zia_jutt_15?igshid=MzNlNGNkZWQ4Mg=="
-        network="instagram"
+        url="https://instagram.com/zia_jutt_15"
+        // network="instagram"
         bgColor='transparent'
         fgColor='#E1306C'
         target='_blank'
@@ -26,7 +26,7 @@ function Social({isSmallScreen}) {
       <SocialIcon
         className={styles.icon}
         url="https://github.com/ZiaSandhu"
-        network="github"
+        // network="github"
         bgColor='transparent'
         fgColor='#171515'
         target='_blank'
@@ -35,7 +35,7 @@ function Social({isSmallScreen}) {
       <SocialIcon
         className={styles.icon}
         url="https://www.youtube.com/channel/UCvJJrxLXdJjKuDNv9Ha-FLw"
-        network="youtube"
+        // network="youtube"
         bgColor='transparent'
         target='_blank'
         fgColor='#ff0000'

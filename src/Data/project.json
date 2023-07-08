@@ -5,15 +5,6 @@
             "title":"Coin Bounce",
             "imgUrl":"./asset/CoinBounce.png",
             "githubUrl":"https://github.com/ZiaSandhu/coin-bounce.git"
-
-        },
-        {
-            "id":1,
-            "title":"Zia Ur Rehman",
-            "imgUrl":"./asset/Portfolio.png",
-            "githubUrl":"https://github.com/ZiaSandhu/zia.git"
-
-        }
-        
+        }        
     ]
 }
