@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Social from '../SocialIcons/Social'
 import styles from './Header.module.css'
 function Header() {
+  const [size,setSize] = useState(window.screen.width)
   return (
     <>
-      <div className={styles.wrapper}>
+      {/* <img src="./asset/header.png" className={styles.background} alt="" /> */}
+      <div className={ size > 600 ? styles.wrapper : styles.mobile }>
         {/* <div className={styles.subWrapper}> */}
         <div className={styles.main}>
           <h1>Zia Ur Rehman</h1>
@@ -12,15 +14,10 @@ function Header() {
           <p>Technology Enthusiast working as a web developer</p>
         </div>
         <div className={styles.social}>
-          <Social />
+          <Social isSmallScreen={size<=600} />
         </div>
-        {/* </div> */}
       </div>
-      <div className={styles.divider}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+     
     </>
   );
 }

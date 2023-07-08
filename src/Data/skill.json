@@ -1,0 +1,26 @@
+{
+    "skills":[
+        {
+            "id":0,
+            "title":"Web Developer",
+            "img":"./asset/webImage.png",
+            "desc":"",
+            "languages":["React Js","Express Js"]
+        },
+        {
+            "id":1,
+            "title":"Programming",
+            "img":"./asset/programming.png",
+            "desc":"",
+            "languages":["Python","C++","C sharp"]
+            
+        },
+        {
+            "id":2,
+            "title":"Database",
+            "img":"./asset/database.png",
+            "desc":"",
+            "languages":["MySql","MongoDb","Sql"]
+        }
+    ]
+}

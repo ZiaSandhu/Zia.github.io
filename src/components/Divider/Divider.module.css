@@ -1,0 +1,15 @@
+.divider{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .divider span{
+    width: 15px;
+    height: 15px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  

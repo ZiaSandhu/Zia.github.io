@@ -6,6 +6,11 @@
     flex-direction: column;
     justify-content: center;
 }
+.mobile{
+    display: flex;
+    justify-content: center;
+
+}
 .icon{
     opacity: 0.7;
     margin: -3px;

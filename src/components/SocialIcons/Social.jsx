@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Social.module.css'
 import { SocialIcon } from 'react-social-icons';
-function Social() {
+function Social({isSmallScreen}) {
   return (
-    <div className={styles.wrapper}>
+    <div className={!isSmallScreen ? styles.wrapper : styles.mobile}>
       {/* linkedIn */}
       <SocialIcon
         className={styles.icon}

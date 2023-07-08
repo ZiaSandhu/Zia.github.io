@@ -3,12 +3,13 @@ import styles from './Project.module.css'
 
 function Project(props) {
 
+    const isSmallScreen = window.screen.width <=600
     const leftImage = props.id%2 === 0
     const rightImage = props.id%2 !== 0
     console.log(leftImage)
     let leftContent, rightContent;
     const imgDiv = (
-        <img src={props.img} alt='project Image' width='100%' height='100%' />
+        <img src={props.img} alt='project' width='100%' height='100%' />
     )
     const details = (
       <>
@@ -21,20 +22,39 @@ function Project(props) {
         rightContent =  details
     }
     else{
-        rightContent = imgDiv
-        leftContent = details
+      rightContent = imgDiv;
+      leftContent = details;
     }
 
-  return (
-    <div className={styles.wrapper}>
-        <div className={leftImage ? styles.imgDiv : styles.content} >
-            {leftContent}
+    const largeScreen = (
+      <div className={styles.wrapper}>
+        <div className={leftImage ? styles.imgDiv : styles.content}>
+          {leftContent}
         </div>
         <div className={rightImage ? styles.imgDiv : styles.content}>
-            {rightContent}
+          {rightContent}
         </div>
-    </div>
+      </div>
+    );
+    const smallScreen = (
+      <div className={styles.mobileWrapper}>
+        {imgDiv}
+        <h4>{props.title}</h4>
+      </div>
+    )
+  return (
+    
+    <>
+    {
+       !isSmallScreen ?
+        largeScreen
+        :
+        smallScreen
+      
+    }
+    </>
   )
+    
 }
 
 export default Project
