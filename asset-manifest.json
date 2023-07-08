@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zia-github.io/static/css/main.2a3755ff.css",
+    "main.js": "/zia-github.io/static/js/main.cd672e4f.js",
+    "static/js/787.5cf638ed.chunk.js": "/zia-github.io/static/js/787.5cf638ed.chunk.js",
+    "index.html": "/zia-github.io/index.html",
+    "main.2a3755ff.css.map": "/zia-github.io/static/css/main.2a3755ff.css.map",
+    "main.cd672e4f.js.map": "/zia-github.io/static/js/main.cd672e4f.js.map",
+    "787.5cf638ed.chunk.js.map": "/zia-github.io/static/js/787.5cf638ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a3755ff.css",
+    "static/js/main.cd672e4f.js"
+  ]
+}
